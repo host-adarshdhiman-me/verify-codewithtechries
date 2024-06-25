@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Authenticated</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #232625, #c0c0c0);
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9); /* Optional: Adds a semi-transparent white background to the container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+        }
+
+        .checkmark {
+            font-size: 56px;
+            color: #4caf50;
+            animation: pulse 1s ease-in-out infinite;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .brand {
+            font-weight: bold;
+        }
+
+        .links {
+            margin-top: 30px;
+            font-size: 1em;
+        }
+
+        .links a {
+            color: #4caf50;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.9); }
+            70% { transform: scale(1); }
+            100% { transform: scale(0.9); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="checkmark">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <p class="message">Certificate authenticated by <span class="brand">CodeWithTechries</span></p>
+        <div class="links">
+            <a href="https://www.instagram.com/codewithtechries/" target="_blank"><i class="fab fa-instagram"></i> Our Instagram</a>
+            <a href="https://www.socio.ltd/" target="_blank"><i class="fas fa-globe"></i> Socio.ltd</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd45eV3k5Z0l4z1gGb3QQ2WU5ARcibi03InXXu82sUEx9dW5g/viewform" target="_blank"><i class="fas fa-envelope"></i> Training Form</a>
+        </div>
+    </div>
+</body>
+</html>
+
